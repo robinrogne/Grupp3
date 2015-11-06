@@ -5,9 +5,9 @@
 	<script type="text/javascript" src="js/index.js"></script>
 </head>
 <body>
-	<div class = button>
+	<div id=centered>
 		<button type="button" onclick="leader()">Ledare</button>	
 		<button type="button" onclick="coworker()">Medarbetare</button>	
-	<div>
+	</div><!--end of centered-->
 </body>
 </html
