@@ -5,7 +5,7 @@
 	<script type="text/javascript" src="js/index.js"></script>
 </head>
 <body>
-	<div id = button>
+	<div class = button>
 		<button type="button" onclick="leader()">Ledare<button>	
 		<button type="button" onclick="coworker()">Medarbetare</button>	
 	<div>
