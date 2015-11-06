@@ -1,3 +1,6 @@
-function goto(){
-	window.location="sida.html";
+function leader(){
+	window.location="leader.html";
+}
+function coworker(){
+	window.location="coworker.html";
 }
