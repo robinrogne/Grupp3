@@ -1,7 +1,5 @@
 <html>
-<head>
-	<script type="text/javascript" src="js/index.js"></script>
-</head>
+<head></head>
 <body>
 	<div id = button>
 		<button type="button" onclick="printHello()">Skriver ut Hello World!</button>	
