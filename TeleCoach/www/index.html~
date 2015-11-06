@@ -7,8 +7,8 @@
 </head>
 <body>
 	<div id="centered">
-		<button type="button" onclick="leader()">Ledare</button>	
-		<button type="button" onclick="coworker()">Medarbetare</button>	
+		<img src="img/telecoaching-logo.png"/>
+		<a class="buttons" href="leader.html">Leader</a>
 		<a class="buttons" href="coworker.html">Coworker</a>
 	</div><!--end of centered-->
 </body>
