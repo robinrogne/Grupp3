@@ -4,10 +4,9 @@
 </head>
 <body>
 	<div id = button>
-		<FORM METHOD = "LINK" ACTION = "sida.html/" >   
-			<input type = "submit" value= "Ledare">
-		 </FORM>
+	<a href="sida.html">testa att gå till sida.html</a>	
 		<button type="button" onclick="printHello()">Skriver ut Hello World!</button>	
+		<button type="button" onclick="goto()">Skriver ut Hello World!</button>	
 	<div>
 </body>
 </html
