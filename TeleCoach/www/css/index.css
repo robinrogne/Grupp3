@@ -2,17 +2,21 @@
     text-align: center;
     margin: 0 auto;
 }
+#logo{
+    margin-top: 70%;
+    margin-bottom: 10%;
+}
 .buttons{
 border-top-color: #819BCB;
 border-right-color: #819BCB;
 border-bottom-color: #FF8585;
 border-left-color: #819BCB;
-border-width: 0px 0px 6px 0px;
+border-width: 0px 0px 17px 0px;
 border-style: solid; 
 -webkit-border-radius: 0px; 
 -moz-border-radius: 0px;
 border-radius: 4px;
-font-size:12px;
+font-size:42px;
 font-family:arial, helvetica, sans-serif; 
 padding: 10px 10px 10px 10px; 
 text-decoration:none; 
