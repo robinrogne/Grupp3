@@ -1,3 +1,3 @@
-function printHello(){
-	alert("Hello World");
+function goto(){
+	window.location="/sida.html";
 }

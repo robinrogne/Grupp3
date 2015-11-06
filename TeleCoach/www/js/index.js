@@ -1,3 +1,3 @@
 function goto(){
-	window.location="/sida.html";
+	window.location="sida.html";
 }
