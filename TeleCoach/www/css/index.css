@@ -37,7 +37,7 @@ margin-bottom: 3%;
 }
 
 .buttons:hover{
- border-top-color: #819BCB;border-right-color: #819BCB;border-bottom-color: #F53D68;border-left-color: #819BCB;border-width: 0px 0px 6px 0px;border-style: solid;
+ border-top-color: #819BCB;border-right-color: #819BCB;border-bottom-color: #F53D68;border-left-color: #819BCB;border-width: 0px 0px 17px 0px;border-style: solid;
  background-color: #E40A0A; background-image: -webkit-gradient(linear, left top, left bottom, from(#E40A0A), to(#9F0202));
  background-image: -webkit-linear-gradient(top, #E40A0A, #9F0202);
  background-image: -moz-linear-gradient(top, #E40A0A, #9F0202);
