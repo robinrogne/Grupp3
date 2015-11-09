@@ -1,0 +1,6 @@
+function leader(){
+	window.location="leader.htm";
+}
+function coworker(){
+	window.location="coworker.html";
+}
