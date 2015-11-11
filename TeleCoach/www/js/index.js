@@ -1,4 +1,5 @@
 function onload(){
+
 document.addEventListener("deviceready",onDeviceReady(), false);
 }
 function onDeviceReady(){
