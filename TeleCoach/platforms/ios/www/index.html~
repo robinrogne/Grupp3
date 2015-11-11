@@ -6,10 +6,11 @@
 	<link rel="stylesheet" type="text/css" href="css/index.css"/>
 </head>
 <body>
-	<div id="centered">
-		<img src="img/telecoaching-logo.png"/>
-		<a class="buttons" href="leader.html">Leader</a>
-		<a class="buttons" href="coworker.html">Coworker</a>
-	</div><!--end of centered-->
+<p id="skriv"></p>
+        <div id="centered">
+            <img id="logo" src="img/telecoaching-logo.png"/>
+            <a class="buttons" href="leader.html">Ledare</a>
+            <a class="buttons" href="coworker.html">Medarbetare</a>
+        </div><!--end of centered-->
 </body>
 </html

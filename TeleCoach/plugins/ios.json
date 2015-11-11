@@ -12,6 +12,9 @@
         },
         "cordova-plugin-globalization": {
             "PACKAGE_NAME": "com.telecoach"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.telecoach"
         }
     },
     "dependent_plugins": {}

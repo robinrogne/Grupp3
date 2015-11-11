@@ -1,3 +1,9 @@
+function onload(){
+document.addEventListener("deviceready",onDeviceReady(), false);
+}
+function onDeviceReady(){
+	alert("123");
+}
 function leader(){
 	window.location="leader.html";
 }

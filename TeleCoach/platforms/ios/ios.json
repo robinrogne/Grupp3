@@ -11,6 +11,10 @@
                         {
                             "xml": "<feature name=\"Globalization\"><param name=\"ios-package\" value=\"CDVGlobalization\" /></feature>",
                             "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"Device\"><param name=\"ios-package\" value=\"CDVDevice\" /></feature>",
+                            "count": 1
                         }
                     ]
                 }
@@ -22,6 +26,9 @@
             "PACKAGE_NAME": "com.telecoach"
         },
         "cordova-plugin-globalization": {
+            "PACKAGE_NAME": "com.telecoach"
+        },
+        "cordova-plugin-device": {
             "PACKAGE_NAME": "com.telecoach"
         }
     },
@@ -41,6 +48,14 @@
             "pluginId": "cordova-plugin-globalization",
             "clobbers": [
                 "navigator.globalization"
+            ]
+        },
+        {
+            "file": "plugins/cordova-plugin-device/www/device.js",
+            "id": "cordova-plugin-device.device",
+            "pluginId": "cordova-plugin-device",
+            "clobbers": [
+                "device"
             ]
         }
     ]

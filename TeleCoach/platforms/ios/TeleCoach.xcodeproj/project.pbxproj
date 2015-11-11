@@ -40,6 +40,7 @@
 		7E7966E71810823500FA85AD /* icon-small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966DD1810823500FA85AD /* icon-small@2x.png */; };
 		D4A0D8761607E02300AEF8BB /* Default-568h@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */; };
 		A7C7B5DC772942DEA764035F /* CDVGlobalization.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E8058DCBD634AF5BDA7C71C /* CDVGlobalization.m */; };
+		139F83B62C624347AC6C7B4F /* CDVDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = F3CA44D4D67C40F3A2F0580B /* CDVDevice.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -107,6 +108,8 @@
 		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = "TeleCoach/config.xml"; sourceTree = "<group>"; };
 		0E8058DCBD634AF5BDA7C71C /* CDVGlobalization.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVGlobalization.m"; path = "cordova-plugin-globalization/CDVGlobalization.m"; sourceTree = "<group>"; fileEncoding = 4; };
 		76F68AC4EDE7496A8A5E7477 /* CDVGlobalization.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVGlobalization.h"; path = "cordova-plugin-globalization/CDVGlobalization.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		F3CA44D4D67C40F3A2F0580B /* CDVDevice.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVDevice.m"; path = "cordova-plugin-device/CDVDevice.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		00C8B76295A34F09876B6787 /* CDVDevice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVDevice.h"; path = "cordova-plugin-device/CDVDevice.h"; sourceTree = "<group>"; fileEncoding = 4; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -207,6 +210,8 @@
 			children = (
 				0E8058DCBD634AF5BDA7C71C /* CDVGlobalization.m */,
 				76F68AC4EDE7496A8A5E7477 /* CDVGlobalization.h */,
+				F3CA44D4D67C40F3A2F0580B /* CDVDevice.m */,
+				00C8B76295A34F09876B6787 /* CDVDevice.h */,
 			);
 			name = Plugins;
 			path = "TeleCoach/Plugins";
@@ -392,6 +397,7 @@
 				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
 				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
 				A7C7B5DC772942DEA764035F /* CDVGlobalization.m in Sources */,
+				139F83B62C624347AC6C7B4F /* CDVDevice.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
