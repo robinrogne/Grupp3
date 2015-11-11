@@ -9,6 +9,15 @@
     "installed_plugins": {
         "cordova-plugin-whitelist": {
             "PACKAGE_NAME": "com.telecoach"
+        },
+        "cordova-plugin-globalization": {
+            "PACKAGE_NAME": "com.telecoach"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.telecoach"
+        },
+        "cordova-plugin-file": {
+            "PACKAGE_NAME": "com.telecoach"
         }
     },
     "dependent_plugins": {}

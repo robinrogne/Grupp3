@@ -1,3 +1,9 @@
+function onload(){
+document.addEventListener("deviceready",onDeviceReady(), false);
+}
+function onDeviceReady(){
+	alert("1234");
+}
 function leader(){
 	window.location="leader.html";
 }
@@ -5,8 +11,8 @@ function coworker(){
 	window.location="coworker.html";
 }
 function loadcards(){
-    var traningskort1 = "Det här är texten för träningskort1";
-    $("p").text(traningskort1);
+//    var traningskort1 = "Det här är texten för träningskort1";
+    $("p").text(getValue());
 }
 //function readTextFile(file)
 //{
@@ -27,7 +33,17 @@ function loadcards(){
 //    }
 //    rawFile.send(null);
 //}
-function hej(){
-
+function getQueryVariable(variable) {
+    return window.location.search.substring(1);
 }
 
+function setValue(value){
+    window.localStorage.setItem("key", value);
+}
+function getValue(){
+    return window.localStorage.getItem("key");
+}
+
+function getBack(){
+	window.history.back();
+}
