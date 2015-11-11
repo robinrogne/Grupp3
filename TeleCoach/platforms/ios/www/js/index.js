@@ -4,3 +4,6 @@ function leader(){
 function coworker(){
 	window.location="coworker.html";
 }
+function getback(){
+	window.history.back();
+}
